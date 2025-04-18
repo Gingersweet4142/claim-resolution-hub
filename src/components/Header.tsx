@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 
@@ -8,8 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center">
           <h1 className="text-xl font-bold text-claims-navy">
-            <span className="text-2xl">ClaimResolution</span>
-            <span className="text-claims-purple">Hub</span>
+            <span className="text-2xl">Cardust</span>
           </h1>
         </div>
         <nav className="hidden md:flex space-x-8">
