@@ -1,4 +1,3 @@
-
 import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
@@ -7,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-4">ClaimResolutionHub</h3>
+            <h3 className="text-xl font-bold mb-4">Cardust</h3>
             <p className="text-white/70 mb-4">
               Expert assistance for auto insurance claim disputes, helping you receive fair compensation.
             </p>
@@ -89,7 +88,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/10 pt-8 mt-8 text-center text-white/70">
-          <p>© {new Date().getFullYear()} ClaimResolutionHub. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} Cardust. All Rights Reserved.</p>
           <div className="mt-2 space-x-4">
             <a href="#" className="hover:text-claims-purple transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-claims-purple transition-colors">Terms of Service</a>
